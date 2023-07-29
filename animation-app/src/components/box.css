@@ -1,0 +1,6 @@
+.box{
+    position: fixed;
+    transform:translateY(1000px);
+    transition: transform 1.4s;
+}
+
