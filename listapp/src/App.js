@@ -25,8 +25,8 @@ function App() {
       <div className="">
         {divElement.length>0?divElement:<p>click Add-item</p>}
       </div>
-    <button className="absolute bg-blue-500 rounded w-24 p-2 h-10 m-5 bottom-0 start-72 md-start-10" id="addButton" onClick={add} disabled={divLeft===0}>Add-Item</button>
-    <button className="absolute bg-blue-500 rounded h-10 w-36 m-5 p-2 bottom-0 end-64 md-end-10" id="removeButton" onClick={remove} disabled={divElement<3}>Remove-Item</button>
+    <button className="absolute bg-blue-500 rounded w-24 p-2 h-10 m-5 bottom-0 left-0 md-start-10" id="addButton" onClick={add} disabled={divLeft===0}>Add-Item</button>
+    <button className="absolute bg-blue-500 rounded h-10 w-36 m-5 p-2 bottom-0 right-0 md-end-10" id="removeButton" onClick={remove} disabled={divElement<3}>Remove-Item</button>
     </div>
     </div>
   );
