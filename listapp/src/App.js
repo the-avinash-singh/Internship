@@ -9,8 +9,8 @@ function App() {
     setDivElement(data=>[
       ...data,
       <div className='flex' key={data.length}>
-        <div className='border border-2 h-9 mx-3 my-3 p-1 rounded w-40' >item {data.length+1}</div>
-        <div className='border border-2 h-9 mx-3 my-3 p-1 rounded w-40'>price</div>
+        <div className='border border-2 h-9 mx-3 my-3 p-1 rounded w-40 left-0' >item {data.length+1}</div>
+        <div className='border border-2 h-9 mx-3 my-3 p-1 rounded w-40 right-0'>price</div>
       </div>]);
     setDivLeft(data=>data-1);
   }
